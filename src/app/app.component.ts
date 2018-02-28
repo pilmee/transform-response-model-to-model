@@ -20,7 +20,6 @@ export class AppComponent implements OnInit, OnDestroy {
     private _PersonService: PersonService
   ) {}
 
-
   ngOnInit() {
     this.subscription = this._PersonService.get()
       .map < BEPerson[], IPerson[] > ((person) => TransformUtil.Transform < BEPerson, IPerson > (person, Person))
