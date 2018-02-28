@@ -1,13 +1,13 @@
 import { BEPerson } from './person.service';
 
 export const fakeData: BEPerson[] = [{
-    name: 'Ivan',
-    lastName: 'Uriarte Uriarte',
+    name: 'Juan',
+    lastName: 'Perez Diaz',
     birthdate: '07/11/1990'
   },
   {
-    name: 'Braya',
-    lastName: 'Alocen',
+    name: 'Brayam',
+    lastName: 'Gonzales',
     birthdate: '05/10/1996'
   }
 ];
